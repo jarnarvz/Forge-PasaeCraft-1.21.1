@@ -27,7 +27,6 @@ public class PasaeCraft {
     {
         IEventBus modEventBus = context.getModEventBus();
 
-        // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
 
